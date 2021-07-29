@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>navigation bar and Carousel</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/formstyles.css">
+  <script src="bootstrap/js/jquery-3.6.0.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm topmenu navbar-dark sticky-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Inceptor Technologies Centre</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Products and Services
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Computer Accessories</a>
+          <a class="dropdown-item" href="#">Computer Maintenance</a>
+          <a class="dropdown-item" href="#">Computer Networking</a>
+          <a class="dropdown-item" href="#">CCTV Installation</a>
+          <a class="dropdown-item" href="#">VSAT Installation</a>
+          <a class="dropdown-item" href="#">Graphics Design</a>
+          <a class="dropdown-item" href="#">Web Design</a>
+          <a class="dropdown-item" href="#">Software and App Development </a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Career Opportunities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+
+
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a><!-- The slideshow -->
+<div class="carousel-inner" id="carousel1">
+  <div class="carousel-item active">
+    <img src="images/trip3.jpg" alt="slides1" width="100%" height="100%">
+    <div class="carousel-caption">
+      <h3>Tech Pic One</h3>
+      <p>This picture represents Technology One 2020</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="images/collins.jpg" width="100%" height="100%">
+    <div class="carousel-caption">
+      <h3>Tech Pic Two</h3>
+      <p>We had such a great time in LA!</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="images/trip1.jpg"  width="100%" height="100%">
+    <div class="carousel-caption">
+      <h3>Tech Pic Three</h3>
+      <p>We had such a great time in LA!</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="images/trip6.jpg" alt="slides4" width="100%" height="100%">
+    <div class="carousel-caption">
+      <h3>Tech Pic Four</h3>
+      <p>We had such a great time in LA!</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="images/trip5.jpg" width="100%" height="100%">
+    <div class="carousel-caption">
+      <h3>Tech Pic Five</h3>
+      <p>We had such a great time in LA!</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

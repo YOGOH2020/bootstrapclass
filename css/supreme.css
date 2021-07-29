@@ -1,0 +1,13 @@
+body{
+    background: #1d1c1c;
+    color: white;
+}
+#supreme3,#supreme2,#supreme1 ,#supreme4,#supreme5{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+#trip2, #trip1,#trip3,#trip4,#trip5{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
